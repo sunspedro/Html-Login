@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Playwrite+HU:wght@100..400&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(365deg, rgba(0,0,0,1) 0%, rgba(139,227,244,1) 43%, rgba(139,227,244,1) 52%, rgba(0,0,0,1) 82%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top {
+    display: flex;
+    padding: 1rem;
+    color: aliceblue;
+    font-size: large;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+.top-title {
+    margin: 0;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    color:rgba(160,238,255,1);
+}
+.top-links {
+    position: absolute;
+    right: 1rem;
+}
+.top-links:hover {
+    color: #8be3f4;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+    min-height: 100vh;
+}
+.mid-login {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem; 
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'DM Sans';
+}
+.mid-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border-radius: 1.5px;
+}
+
+.mid-form input {
+    border-radius: 2px;
+    border: 1px solid #0d3b66;
+    color: black;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    text-align: center;
+    transition: none;
+}
+button {
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1.5px solid black;
+}
+button:hover {
+    background-color: #0d3b66;
+    color: white;
+    border-color:#0d3b66 ;
+}
+footer{
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+.bot-link:hover {
+    color: #8be3f4;
+    cursor: pointer;
+}
