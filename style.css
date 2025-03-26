@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Winky Sans';
 }
 
 body {
@@ -61,7 +62,7 @@ main {
 }
 
 .mid-form input {
-    border-radius: 2px;
+    border-radius: 5px;
     border: 1px solid #0d3b66;
     color: black;
     box-shadow: none;
@@ -76,11 +77,13 @@ button {
     border-radius: 5px;
     background-color: transparent;
     border: 1.5px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 button:hover {
     background-color: #0d3b66;
     color: white;
     border-color:#0d3b66 ;
+    transform: translateY(-5px);
 }
 footer{
     padding: 2px;
