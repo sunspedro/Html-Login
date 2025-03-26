@@ -5,6 +5,22 @@
     <link rel="stylesheet" href="style.css" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
+    <script>
+        function login(){
+            let login = document.getElementById("login").value;
+            let senha = document.getElementById("senha").value;
+
+            const testelogin = "admin"
+            const testesenha = "senha"
+
+            if (login === testelogin && senha === testesenha){
+                alert("Login bem sucedido!");}
+            else{
+                alert("Login ou senha incorretos. Tente novamente")
+            
+            }
+        }
+    </script>
 </head>
 <body>
     <header class="top">
@@ -19,7 +35,7 @@
                 <label for="senha">Senha</label>  
                 <input type="password" id="senha" placeholder="">
             </form>
-        <button>Enter</button>
+        <button onclick="login()">Enter</button>
         </div>
     </main>
     <footer>
